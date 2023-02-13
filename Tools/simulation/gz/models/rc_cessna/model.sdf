@@ -792,6 +792,7 @@
     <plugin
       filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
       <joint_name>rudder_joint</joint_name>
+      <sub_topic>servo_3</sub_topic>
       <p_gain>10.0</p_gain>
     </plugin>
     <plugin filename="ignition-gazebo-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
